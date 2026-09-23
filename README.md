@@ -15,6 +15,17 @@ When you invoke `/think` (or Claude triggers it automatically), it silently scor
 
 The overhead is invisible — the point is correct effort, not bureaucracy.
 
+## Bundled agents
+
+The plugin ships two agent definitions that power Tier 3 and Tier 4 escalation:
+
+| Agent | Tier | Model | Effort |
+|-------|------|-------|--------|
+| `deep-thinker` | 3 | Opus | high |
+| `max-thinker` | 4 | Opus | max |
+
+These are installed automatically with the plugin — no manual setup required.
+
 ## Installation
 
 ```bash
