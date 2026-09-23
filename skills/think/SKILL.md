@@ -1,9 +1,14 @@
 ---
 name: think
 description: Evaluate task complexity and route to the right model/effort tier automatically. Invoke on any non-trivial task to right-size the model without manual switching.
+triggers:
+  - on: every_user_message
+    auto: true
 ---
 
 # Think — Automatic Effort Routing
+
+**This skill runs automatically on every user message.** You do not need to wait for the user to type `/think` — apply the complexity rubric below to every incoming request before responding.
 
 Silently score the task against the rubric below, pick a tier, and execute. Never ask the user which tier to use — that defeats the point.
 

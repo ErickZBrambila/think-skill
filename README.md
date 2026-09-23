@@ -29,11 +29,13 @@ Or from this repo:
 
 ## Usage
 
+Once installed, the skill runs **automatically on every message** — no `/think` needed. Just describe your task normally and the skill evaluates complexity and routes it behind the scenes.
+
+You can still invoke it explicitly if you want:
+
 ```
 /think
 ```
-
-Or just describe your task — the skill activates automatically on non-trivial work.
 
 ## License
 
