@@ -24,7 +24,7 @@ The overhead is invisible — the point is correct effort, not bureaucracy.
 Or from this repo:
 
 ```bash
-/plugin install github:elcucho/think-skill
+/plugin install github:ErickZBrambila/think-skill
 ```
 
 ## Usage
