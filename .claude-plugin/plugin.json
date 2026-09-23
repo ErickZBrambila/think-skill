@@ -1,0 +1,10 @@
+{
+  "name": "think-skill",
+  "description": "Automatically evaluates task complexity and routes to the right model/effort tier — Quick, Standard, Deep, or Max — without requiring the user to switch manually.",
+  "author": {
+    "name": "elcucho"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "category": "development"
+}
